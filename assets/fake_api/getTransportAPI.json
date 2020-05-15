@@ -1,0 +1,44 @@
+[
+  {
+    "uuid": "5c72c670-9681-11ea-bb37-0242ac130002",
+    "type": "Taxi",
+    "time": "Peak Hour",
+    "price": "15"
+  },
+  {
+    "uuid": "1ee72c5a-9682-11ea-bb37-0242ac130002",
+    "type": "Taxi",
+    "time": "Non-Peak Hour",
+    "price": "12"
+  },
+  {
+    "uuid": "21d1fff8-9682-11ea-bb37-0242ac130002",
+    "type": "Taxi",
+    "time": "Midnight",
+    "price": "18"
+  },
+  {
+    "uuid": "326adda2-9697-11ea-bb37-0242ac130002",
+    "type": "Train",
+    "time": "Peak Hour",
+    "price": "3"
+  },
+  {
+    "uuid": "356b5cde-9697-11ea-bb37-0242ac130002",
+    "type": "Train",
+    "time": "Non-Peak Hour",
+    "price": "2"
+  },
+  {
+    "uuid": "3806bb8c-9697-11ea-bb37-0242ac130002",
+    "type": "Bus",
+    "time": "Standard",
+    "price": "1"
+  },
+  {
+    "uuid": "39ff681c-9697-11ea-bb37-0242ac130002",
+    "type": "Bus",
+    "time": "Night Rider",
+    "price": "2"
+  }
+]

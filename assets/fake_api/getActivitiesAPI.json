@@ -1,0 +1,177 @@
+[
+  {
+    "uuid": "66eefe24-9673-11ea-bb37-0242ac130002",
+    "type": "Cinema",
+    "name": "IP MAN 3",
+    "location": "Chua Chu Kang",
+    "price": "14"
+  },
+  {
+    "uuid": "d368fb34-9675-11ea-bb37-0242ac130002",
+    "type": "Cinema",
+    "name": "World War Z",
+    "location": "J Cube",
+    "price": "14"
+  },
+  {
+    "uuid": "dbe7aa08-9675-11ea-bb37-0242ac130002",
+    "type": "Cinema",
+    "name": "Alaadin",
+    "location": "Chua Chu Kang",
+    "price": "14"
+  },
+  {
+    "uuid": "e3507b6c-9675-11ea-bb37-0242ac130002",
+    "type": "Karaoke",
+    "name": "Teo Heng",
+    "location": "Bukit Panjang",
+    "price": "8"
+  },
+  {
+    "uuid": "2b619a76-9676-11ea-bb37-0242ac130002",
+    "type": "Karaoke",
+    "name": "Teo Heng",
+    "location": "J Cube",
+    "price": "8"
+  },
+  {
+    "uuid": "007dd284-9676-11ea-bb37-0242ac130002",
+    "type": "Karaoke",
+    "name": "Manekineko",
+    "location": "Bugis",
+    "price": "12"
+  },
+  {
+    "uuid": "1c6a9816-967a-11ea-bb37-0242ac130002",
+    "type": "Karaoke",
+    "name": "Manekineko",
+    "location": "Tampines",
+    "price": "12"
+  },
+  {
+    "uuid": "2697d4ac-967a-11ea-bb37-0242ac130002",
+    "type": "LANs",
+    "name": "Panda Q",
+    "location": "Bukit Panjang",
+    "price": "4"
+  },
+  {
+    "uuid": "ab1f239c-967a-11ea-bb37-0242ac130002",
+    "type": "LANs",
+    "name": "Colosseum",
+    "location": "Downtown East",
+    "price": "5"
+  },
+  {
+    "uuid": "b1e68d50-967a-11ea-bb37-0242ac130002",
+    "type": "Club",
+    "name": "Yang Club",
+    "location": "Clarke Quay",
+    "price": "45"
+  },
+  {
+    "uuid": "b557dfe8-967a-11ea-bb37-0242ac130002",
+    "type": "Club",
+    "name": "WAN Club",
+    "location": "Suntec City",
+    "price": "50"
+  },
+  {
+    "uuid": "b99bcfba-967a-11ea-bb37-0242ac130002",
+    "type": "Concerts",
+    "name": "JJ Lin World Tour",
+    "location": "Marina Bay Sands",
+    "price": "68"
+  },
+  {
+    "uuid": "bc9b0848-967a-11ea-bb37-0242ac130002",
+    "type": "Concerts",
+    "name": "BTS World Tour",
+    "location": "National Stadium",
+    "price": "75"
+  },
+  {
+    "uuid": "c125b6c4-967a-11ea-bb37-0242ac130002",
+    "type": "Museum",
+    "name": "Peranakan Museum",
+    "location": "Bras Basah",
+    "price": "0"
+  },
+  {
+    "uuid": "c678b996-967a-11ea-bb37-0242ac130002",
+    "type": "Museum",
+    "name": "Art Science Museum",
+    "location": "Marina Bay Sands",
+    "price": "13"
+  },
+  {
+    "uuid": "cb4eea9e-967a-11ea-bb37-0242ac130002",
+    "type": "Ice Skating",
+    "name": "The Rink",
+    "location": "J Cube",
+    "price": "14"
+  },
+  {
+    "uuid": "ce2704fe-967a-11ea-bb37-0242ac130002",
+    "type": "Ice Skating",
+    "name": "Kallang Ice World",
+    "location": "National Stadium",
+    "price": "15"
+  },
+  {
+    "uuid": "21cf8f48-967d-11ea-bb37-0242ac130002",
+    "type": "Trampoline Park",
+    "name": "Katapult Trampoline Park",
+    "location": "ORTO",
+    "price": "15"
+  },
+  {
+    "uuid": "26e33b38-967d-11ea-bb37-0242ac130002",
+    "type": "Trampoline Park",
+    "name": "Amped Trampoline Park",
+    "location": "Fort Canning",
+    "price": "16"
+  },
+  {
+    "uuid": "298ed356-967d-11ea-bb37-0242ac130002",
+    "type": "Picnic",
+    "name": "Marina Barrage",
+    "location": "Marina Bay Sands",
+    "price": "0"
+  },
+  {
+    "uuid": "2ce94036-967d-11ea-bb37-0242ac130002",
+    "type": "Picnic",
+    "name": "Fort Canning Park",
+    "location": "Fort Canning",
+    "price": "0"
+  },
+  {
+    "uuid": "2fd2349c-967d-11ea-bb37-0242ac130002",
+    "type": "Picnic",
+    "name": "Botanic Gardens",
+    "location": "Botanic Gardens",
+    "price": "0"
+  },
+  {
+    "uuid": "331a8550-967d-11ea-bb37-0242ac130002",
+    "type": "Zoo",
+    "name": "Jurong Bird Park",
+    "location": "Jurong Hill",
+    "price": "20"
+  },
+  {
+    "uuid": "369dce26-967d-11ea-bb37-0242ac130002",
+    "type": "Zoo",
+    "name": "Singapore Zoo",
+    "location": "80 Mandai Lake Road",
+    "price": "37"
+  },
+  {
+    "uuid": "ae969abe-967a-11ea-bb37-0242ac130002",
+    "type": "Club",
+    "name": "Zouk",
+    "location": "Clarke Quay",
+    "price": "45"
+  }
+]

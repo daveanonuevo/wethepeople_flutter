@@ -1,0 +1,240 @@
+[
+  {
+    "uuid": "be969bb0-96c2-11ea-bb37-0242ac130002",
+    "name": "303 Foodfare",
+    "location": "Chua Chu Kang",
+    "price_norm": "5",
+    "price_min": "2"
+  },
+  {
+    "uuid": "c78d5182-96c2-11ea-bb37-0242ac130002",
+    "name": "MacDonalds",
+    "location": "Chua Chu Kang",
+    "price_norm": "8",
+    "price_min": "5"
+  },
+  {
+    "uuid": "ca1afa08-96c2-11ea-bb37-0242ac130002",
+    "name": "MacDonalds",
+    "location": "Bukit Panjang",
+    "price_norm": "8",
+    "price_min": "5"
+  },
+  {
+    "uuid": "cbd62cf0-96c2-11ea-bb37-0242ac130002",
+    "name": "MacDonalds",
+    "location": "Tampines",
+    "price_norm": "8",
+    "price_min": "5"
+  },
+  {
+    "uuid": "cdddfa5a-96c2-11ea-bb37-0242ac130002",
+    "name": "Saizeriya",
+    "location": "J Cube",
+    "price_norm": "10",
+    "price_min": "5"
+  },
+  {
+    "uuid": "d12c7eb6-96c2-11ea-bb37-0242ac130002",
+    "name": "Saizeriya",
+    "location": "Bukit Panjang",
+    "price_norm": "10",
+    "price_min": "5"
+  },
+  {
+    "uuid": "e50a663c-96c2-11ea-bb37-0242ac130002",
+    "name": "Saizeriya",
+    "location": "Bugis",
+    "price_norm": "10",
+    "price_min": "5"
+  },
+  {
+    "uuid": "eb418d00-96c2-11ea-bb37-0242ac130002",
+    "name": "Astons",
+    "location": "JCube",
+    "price_norm": "15",
+    "price_min": "7"
+  },
+  {
+    "uuid": "edc314cc-96c2-11ea-bb37-0242ac130002",
+    "name": "KFC",
+    "location": "80 Mandai Lake Road",
+    "price_norm": "9",
+    "price_min": "6"
+  },
+  {
+    "uuid": "f0bcb35e-96c2-11ea-bb37-0242ac130002",
+    "name": "KFC",
+    "location": "Chua Chu Kang",
+    "price_norm": "9",
+    "price_min": "6"
+  },
+  {
+    "uuid": "f31a6628-96c2-11ea-bb37-0242ac130002",
+    "name": "KFC",
+    "location": "Bukit Panjang",
+    "price_norm": "9",
+    "price_min": "6"
+  },
+  {
+    "uuid": "f5287860-96c2-11ea-bb37-0242ac130002",
+    "name": "Corner House",
+    "location": "Botantic Gardens",
+    "price_norm": "25",
+    "price_min": "16"
+  },
+  {
+    "uuid": "fc07d1a8-96c2-11ea-bb37-0242ac130002",
+    "name": "Ramen Nagi",
+    "location": "Suntec City",
+    "price_norm": "20",
+    "price_min": "16"
+  },
+  {
+    "uuid": "ff02b940-96c2-11ea-bb37-0242ac130002",
+    "name": "Burger King",
+    "location": "Bukit Panjang",
+    "price_norm": "8",
+    "price_min": "4"
+  },
+  {
+    "uuid": "017a9012-96c3-11ea-bb37-0242ac130002",
+    "name": "Burger King",
+    "location": "Tampines",
+    "price_norm": "8",
+    "price_min": "4"
+  },
+  {
+    "uuid": "04008f4e-96c3-11ea-bb37-0242ac130002",
+    "name": "Eighteen Chefs",
+    "location": "Bukit Panjang",
+    "price_norm": "18",
+    "price_min": "8"
+  },
+  {
+    "uuid": "05e85be8-96c3-11ea-bb37-0242ac130002",
+    "name": "Tonkotsu Kazan Ramen",
+    "location": "Bukit Panjang",
+    "price_norm": "20",
+    "price_min": "13"
+  },
+  {
+    "uuid": "07bfa4d0-96c3-11ea-bb37-0242ac130002",
+    "name": "ANDES by ASTONS",
+    "location": "Downtown East",
+    "price_norm": "18",
+    "price_min": "9"
+  },
+  {
+    "uuid": "09fb5384-96c3-11ea-bb37-0242ac130002",
+    "name": "Just Acia",
+    "location": "Downtown East",
+    "price_norm": "10",
+    "price_min": "7"
+  },
+  {
+    "uuid": "0bc43a50-96c3-11ea-bb37-0242ac130002",
+    "name": "Cuba Libre",
+    "location": "Clarke Quay",
+    "price_norm": "30",
+    "price_min": "18"
+  },
+  {
+    "uuid": "0e49a314-96c3-11ea-bb37-0242ac130002",
+    "name": "Deutschlander",
+    "location": "Clarke Quay",
+    "price_norm": "40",
+    "price_min": "12"
+  },
+  {
+    "uuid": "0ffdadae-96c3-11ea-bb37-0242ac130002",
+    "name": "Muchos",
+    "location": "Clarke Quay",
+    "price_norm": "30",
+    "price_min": "20"
+  },
+  {
+    "uuid": "11c28d1c-96c3-11ea-bb37-0242ac130002",
+    "name": "Popeyes",
+    "location": "Bugis",
+    "price_norm": "12",
+    "price_min": "8"
+  },
+  {
+    "uuid": "14f97676-96c3-11ea-bb37-0242ac130002",
+    "name": "QQ Noodle House",
+    "location": "Bugis",
+    "price_norm": "10",
+    "price_min": "8"
+  },
+  {
+    "uuid": "18874ade-96c3-11ea-bb37-0242ac130002",
+    "name": "Pepper Lunch",
+    "location": "Tampines",
+    "price_norm": "18",
+    "price_min": "12"
+  },
+  {
+    "uuid": "1a90a1d6-96c3-11ea-bb37-0242ac130002",
+    "name": "Bayang",
+    "location": "Fort Canning",
+    "price_norm": "40",
+    "price_min": "18"
+  },
+  {
+    "uuid": "1c6c09e6-96c3-11ea-bb37-0242ac130002",
+    "name": "Ramen Keisuke Lobster King",
+    "location": "Fort Canning",
+    "price_norm": "18",
+    "price_min": "14"
+  },
+  {
+    "uuid": "1e0c5620-96c3-11ea-bb37-0242ac130002",
+    "name": "Baja Fresh Mexican Grill",
+    "location": "Bras Basah",
+    "price_norm": "27",
+    "price_min": "13"
+  },
+  {
+    "uuid": "2258a1ac-96c3-11ea-bb37-0242ac130002",
+    "name": "BBK Bistro and Bar",
+    "location": "ORTO",
+    "price_norm": "25",
+    "price_min": "8"
+  },
+  {
+    "uuid": "2463feba-96c3-11ea-bb37-0242ac130002",
+    "name": "Pizza Hut",
+    "location": "Jurong Hill",
+    "price_norm": "16",
+    "price_min": "12"
+  },
+  {
+    "uuid": "25fc237e-96c3-11ea-bb37-0242ac130002",
+    "name": "Bread Street Kitchen",
+    "location": "Marina Bay Sands",
+    "price_norm": "50",
+    "price_min": "20"
+  },
+  {
+    "uuid": "2941302e-96c3-11ea-bb37-0242ac130002",
+    "name": "Black Tap",
+    "location": "Marina Bay Sands",
+    "price_norm": "38",
+    "price_min": "22"
+  },
+  {
+    "uuid": "2bc74c0c-96c3-11ea-bb37-0242ac130002",
+    "name": "COCA",
+    "location": "National Stadium",
+    "price_norm": "56",
+    "price_min": "52"
+  },
+  {
+    "uuid": "2e67b226-96c3-11ea-bb37-0242ac130002",
+    "name": "Issho Izakaya",
+    "location": "National Stadium",
+    "price_norm": "35",
+    "price_min": "16"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "uuid": "7dd6cadd-f8ad-470b-8569-56d682588e3c",
+    "number": "92273586",
+    "type": "DEPOSIT",
+    "amount": "50",
+    "date": "2020-05-15T00:00:00.000Z"
+  },
+  {
+    "uuid": "171e1cf1-11da-46fb-a501-be59a5167d45",
+    "number": "92273586",
+    "type": "WITHDRAW",
+    "amount": "75",
+    "date": "2020-05-14T00:00:00.000Z"
+  },
+  {
+    "uuid": "5e582147-8058-4eeb-bfc9-d58c4eee93bc",
+    "number": "92273586",
+    "type": "SPEND",
+    "amount": "80",
+    "date": "2020-05-13T00:00:00.000Z"
+  },
+  {
+    "uuid": "4babf09d-102f-4d5e-873d-08406c428970",
+    "number": "92273586",
+    "type": "DEPOSIT",
+    "amount": "300",
+    "date": "2020-05-12T00:00:00.000Z"
+  },
+  {
+    "uuid": "1d043807-07a1-4cf3-bd33-33cc078156c2",
+    "number": "92273586",
+    "type": "SPEND",
+    "amount": "25",
+    "date": "2020-05-12T00:00:00.000Z"
+  }
+]
