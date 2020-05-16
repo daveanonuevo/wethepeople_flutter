@@ -13,17 +13,17 @@ class Details extends StatelessWidget {
   }
 
   void _onCreatePress(context, type) {
-    if (type=="RESTART")
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => CreateEventMain()),
-    );
-    if (type=="CONFIRM")
+    if (type == "RESTART")
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => CreateEventMain()),
+      );
+    if (type == "CONFIRM")
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => MainEventsPage()),
       );
-    if (type=='CO-PAY')
+    if (type == 'CO-PAY')
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => CoPaymentSetup()),
@@ -39,8 +39,7 @@ class Details extends StatelessWidget {
   Widget build(BuildContext context) {
     final event = Provider.of<Events>(context);
 
-    if (total == 0)
-    event.calculateActivity();
+    if (total == 0) event.calculateActivity();
     activityCosts = event.activityCosts;
     foodCosts = event.foodCosts;
     transportationCosts = event.transportationCosts;
@@ -89,7 +88,8 @@ class Details extends StatelessWidget {
                             fontSize: 18,
                             color: Colors.black,
                             fontWeight: FontWeight.w600)),
-                    Text("${event.currencyActivities}${activityCosts.toString()}",
+                    Text(
+                        "${event.currencyActivities}${activityCosts.toString()}",
                         style: TextStyle(
                             fontSize: 24,
                             color: Colors.black,
@@ -126,20 +126,22 @@ class Details extends StatelessWidget {
                             fontSize: 18,
                             color: Colors.black,
                             fontWeight: FontWeight.w600)),
-                    Text("${event.currencyTransportation}${transportationCosts.toString()}",
+                    Text(
+                        "${event.currencyTransportation}${transportationCosts.toString()}",
                         style: TextStyle(
                             fontSize: 24,
                             color: Colors.black,
                             fontStyle: FontStyle.italic)),
                     Padding(padding: EdgeInsets.symmetric(vertical: 10)),
-                    Text(
-                        "TOTAL: SGD${event.total.toStringAsFixed(2)}",
+                    Text("TOTAL: SGD${event.total.toStringAsFixed(2)}",
                         style: TextStyle(
                             fontSize: 24,
                             color: Colors.black,
                             fontWeight: FontWeight.w900)),
                     Text(
-                        "Conversion Rate 1MYR = ${event.conversionRate.toStringAsFixed(2)}SGD",
+                        (event.conversionRate != 0)
+                            ? "Conversion Rate 1MYR = ${event.conversionRate.toStringAsFixed(2)}SGD"
+                            : "Transaction is fully in SGD",
                         style: TextStyle(
                             fontSize: 16,
                             color: Colors.black,
@@ -148,7 +150,7 @@ class Details extends StatelessWidget {
                 )),
             Padding(padding: EdgeInsets.only(bottom: 30)),
             Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 15),
@@ -162,14 +164,16 @@ class Details extends StatelessWidget {
                             borderRadius: BorderRadius.circular(18.0),
                             side: BorderSide(color: Colors.green[700])),
                         child: Text("RESTART",
-                            style: TextStyle(fontSize: 18, color: Colors.white)),
+                            style:
+                                TextStyle(fontSize: 18, color: Colors.white)),
                         onPressed: () {
                           _onCreatePress(context, "RESTART");
                         },
                       ),
                     ),
                   ),
-                ),                Container(
+                ),
+                Container(
                   margin: EdgeInsets.symmetric(horizontal: 15),
                   child: Align(
                     child: SizedBox(
@@ -181,7 +185,8 @@ class Details extends StatelessWidget {
                             borderRadius: BorderRadius.circular(18.0),
                             side: BorderSide(color: Colors.green[700])),
                         child: Text("CO-PAY",
-                            style: TextStyle(fontSize: 18, color: Colors.white)),
+                            style:
+                                TextStyle(fontSize: 18, color: Colors.white)),
                         onPressed: () {
                           _onCreatePress(context, "CO-PAY");
                         },
@@ -190,7 +195,8 @@ class Details extends StatelessWidget {
                   ),
                 ),
               ],
-            ),            Padding(padding: EdgeInsets.only(bottom: 10)),
+            ),
+            Padding(padding: EdgeInsets.only(bottom: 10)),
             Container(
               margin: EdgeInsets.symmetric(horizontal: 15),
               child: Align(
@@ -213,26 +219,6 @@ class Details extends StatelessWidget {
             ),
           ],
         ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        // this will be set when a new tab is tapped
-        backgroundColor: Colors.black87,
-        unselectedItemColor: Colors.white,
-        selectedItemColor: Colors.green,
-        onTap: _onTabTapped,
-        items: [
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.home),
-            title: new Text('Home'),
-          ),
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.add),
-            title: new Text('Add Events'),
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.calendar_today), title: Text('Analytics')),
-        ],
       ),
     );
   }

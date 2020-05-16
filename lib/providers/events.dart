@@ -43,6 +43,31 @@ class Events with ChangeNotifier {
   double finalActivityAmount=0;
   double conversionRate = 0;
 
+  double eachInMYR;
+
+  void sendRequestMYR(amountinMYR) async {
+    print(amountinMYR);
+    var bodyEncoded = json.encode(<String, String>{
+      "amountinmyr": "${amountinMYR}",
+      "source": "SGD",
+      "destination": "MYR"
+    });
+    final r = await http.post(
+      'http://192.168.50.71:3000',
+      body: bodyEncoded,
+      headers: {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+      },
+    );
+    final response = json.decode(r.body);
+    print(response);
+    final visaRes = VisaResponse.fromJson(response);
+    eachInMYR = double.parse(visaRes.destinationAmount);
+    print("EACH IN MYR: $eachInMYR");
+    notifyListeners();
+  }
+
 
   DateTime selectedDate = DateTime.now();
 
@@ -61,7 +86,7 @@ class Events with ChangeNotifier {
   void sendRequest(amountinMYR) async {
     print(amountinMYR);
     var bodyEncoded =
-    json.encode(<String, String>{"amountinmyr": "$amountinMYR"});
+    json.encode(<String, String>{"amountinmyr": "$amountinMYR", "destination": "SGD", "source": "MYR"});
 
     print(bodyEncoded);
     final r = await http.post(

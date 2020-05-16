@@ -91,26 +91,6 @@ class CreateEventTransport extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        // this will be set when a new tab is tapped
-        backgroundColor: Colors.black87,
-        unselectedItemColor: Colors.white,
-        selectedItemColor: Colors.green,
-        onTap: _onTabTapped,
-        items: [
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.home),
-            title: new Text('Home'),
-          ),
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.add),
-            title: new Text('Add Events'),
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.calendar_today), title: Text('Analytics')),
-        ],
-      ),
     );
   }
 }

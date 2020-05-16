@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 class User with ChangeNotifier{
   String username;
-  double balance;
+  double balance=200;
   double expenditure;
 
   void setUsername(String _username){

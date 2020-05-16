@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wethepeople_flutter/providers/user.dart';
+import 'package:wethepeople_flutter/ui/analytics.dart';
 
 import 'create_event/create_event_main.dart';
 
 class MainEventsPage extends StatelessWidget {
-  int _currentIndex = 0;
-
-  void _onTabTapped(int index) {
-    _currentIndex = index;
-  }
-
-  void _onCreatePress(context) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => CreateEventMain()),
-    );
+  void _onCreatePress(context, type) {
+    if (type == "CREATE"){
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => CreateEventMain()),
+      );
+    }    if (type == "ANALYTICS"){
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => Analytics()),
+      );
+    }
   }
 
   @override
@@ -60,33 +62,34 @@ class MainEventsPage extends StatelessWidget {
                 child: Text("CREATE",
                     style: TextStyle(fontSize: 18, color: Colors.white)),
                 onPressed: () {
-                  _onCreatePress(context);
+                  _onCreatePress(context, "CREATE");
+                },
+              ),
+            ),
+          ),
+        ),        Padding(padding: EdgeInsets.only(bottom: 25)),
+        Container(
+          margin: EdgeInsets.symmetric(horizontal: 30),
+          child: Align(
+            child: SizedBox(
+              width: 500,
+              height: 40,
+              child: RaisedButton(
+                color: Colors.blueAccent,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(18.0),
+                    side: BorderSide(color: Colors.blueAccent)
+                ),
+                child: Text("ANALYTICS",
+                    style: TextStyle(fontSize: 18, color: Colors.white)),
+                onPressed: () {
+                  _onCreatePress(context, "ANALYTICS");
                 },
               ),
             ),
           ),
         ),
       ]),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        // this will be set when a new tab is tapped
-        backgroundColor: Colors.black87,
-        unselectedItemColor: Colors.white,
-        selectedItemColor: Colors.green,
-        onTap: _onTabTapped,
-        items: [
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.home),
-            title: new Text('Home'),
-          ),
-          BottomNavigationBarItem(
-            icon: new Icon(Icons.add),
-            title: new Text('Add Events'),
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.calendar_today), title: Text('Analytics')),
-        ],
-      ),
     );
   }
 }
