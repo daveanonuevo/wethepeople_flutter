@@ -3,175 +3,208 @@
     "uuid": "66eefe24-9673-11ea-bb37-0242ac130002",
     "type": "Cinema",
     "name": "IP MAN 3",
-    "location": "Chua Chu Kang",
-    "price": "14"
+    "location": "Chua Chu Kang, Singapore",
+    "price": "14",
+    "code": "702"
   },
   {
     "uuid": "d368fb34-9675-11ea-bb37-0242ac130002",
     "type": "Cinema",
     "name": "World War Z",
-    "location": "J Cube",
-    "price": "14"
+    "location": "J Cube, Singapore",
+    "price": "14",
+    "code": "702"
   },
   {
     "uuid": "dbe7aa08-9675-11ea-bb37-0242ac130002",
     "type": "Cinema",
     "name": "Alaadin",
-    "location": "Chua Chu Kang",
-    "price": "14"
+    "location": "Chua Chu Kang, Singapore",
+    "price": "14",
+    "code": "702"
   },
   {
     "uuid": "e3507b6c-9675-11ea-bb37-0242ac130002",
     "type": "Karaoke",
     "name": "Teo Heng",
-    "location": "Bukit Panjang",
-    "price": "8"
+    "location": "Bukit Panjang, Singapore",
+    "price": "8",
+    "code": "702"
   },
   {
     "uuid": "2b619a76-9676-11ea-bb37-0242ac130002",
     "type": "Karaoke",
     "name": "Teo Heng",
-    "location": "J Cube",
-    "price": "8"
+    "location": "J Cube, Singapore",
+    "price": "8",
+    "code": "702"
   },
   {
     "uuid": "007dd284-9676-11ea-bb37-0242ac130002",
     "type": "Karaoke",
     "name": "Manekineko",
-    "location": "Bugis",
-    "price": "12"
+    "location": "Bugis, Singapore",
+    "price": "12",
+    "code": "702"
   },
   {
     "uuid": "1c6a9816-967a-11ea-bb37-0242ac130002",
     "type": "Karaoke",
     "name": "Manekineko",
-    "location": "Tampines",
-    "price": "12"
+    "location": "Tampines, Singapore",
+    "price": "12",
+    "code": "702"
   },
   {
     "uuid": "2697d4ac-967a-11ea-bb37-0242ac130002",
     "type": "LANs",
     "name": "Panda Q",
-    "location": "Bukit Panjang",
-    "price": "4"
+    "location": "Bukit Panjang, Singapore",
+    "price": "4",
+    "code": "702"
   },
   {
     "uuid": "ab1f239c-967a-11ea-bb37-0242ac130002",
     "type": "LANs",
     "name": "Colosseum",
-    "location": "Downtown East",
-    "price": "5"
+    "location": "Downtown East, Singapore",
+    "price": "5",
+    "code": "702"
+  },
+  {
+    "uuid": "ae969abe-967a-11ea-bb37-0242ac130002",
+    "type": "Club",
+    "name": "Zouk Club",
+    "location": "Clarke Quay, Singapore",
+    "price": "45",
+    "code": "702"
   },
   {
     "uuid": "b1e68d50-967a-11ea-bb37-0242ac130002",
     "type": "Club",
     "name": "Yang Club",
-    "location": "Clarke Quay",
-    "price": "45"
+    "location": "Clarke Quay, Singapore",
+    "price": "45",
+    "code": "702"
   },
   {
     "uuid": "b557dfe8-967a-11ea-bb37-0242ac130002",
     "type": "Club",
     "name": "WAN Club",
-    "location": "Suntec City",
-    "price": "50"
+    "location": "Suntec City, Singapore",
+    "price": "50",
+    "code": "702"
   },
   {
     "uuid": "b99bcfba-967a-11ea-bb37-0242ac130002",
     "type": "Concerts",
     "name": "JJ Lin World Tour",
-    "location": "Marina Bay Sands",
-    "price": "68"
+    "location": "Marina Bay Sands, Singapore",
+    "price": "68",
+    "code": "702"
   },
   {
     "uuid": "bc9b0848-967a-11ea-bb37-0242ac130002",
     "type": "Concerts",
     "name": "BTS World Tour",
-    "location": "National Stadium",
-    "price": "75"
+    "location": "National Stadium, Singapore",
+    "price": "75",
+    "code": "702"
   },
   {
     "uuid": "c125b6c4-967a-11ea-bb37-0242ac130002",
     "type": "Museum",
     "name": "Peranakan Museum",
-    "location": "Bras Basah",
-    "price": "0"
+    "location": "Bras Basah, Singapore",
+    "price": "0",
+    "code": "702"
   },
   {
     "uuid": "c678b996-967a-11ea-bb37-0242ac130002",
     "type": "Museum",
     "name": "Art Science Museum",
-    "location": "Marina Bay Sands",
-    "price": "13"
+    "location": "Marina Bay Sands, Singapore",
+    "price": "13",
+    "code": "702"
   },
   {
     "uuid": "cb4eea9e-967a-11ea-bb37-0242ac130002",
     "type": "Ice Skating",
     "name": "The Rink",
-    "location": "J Cube",
-    "price": "14"
+    "location": "J Cube, Singapore",
+    "price": "14",
+    "code": "702"
   },
   {
     "uuid": "ce2704fe-967a-11ea-bb37-0242ac130002",
     "type": "Ice Skating",
     "name": "Kallang Ice World",
-    "location": "National Stadium",
-    "price": "15"
+    "location": "National Stadium, Singapore",
+    "price": "15",
+    "code": "702"
   },
   {
     "uuid": "21cf8f48-967d-11ea-bb37-0242ac130002",
     "type": "Trampoline Park",
     "name": "Katapult Trampoline Park",
-    "location": "ORTO",
-    "price": "15"
+    "location": "ORTO, Singapore",
+    "price": "15",
+    "code": "702"
   },
   {
     "uuid": "26e33b38-967d-11ea-bb37-0242ac130002",
     "type": "Trampoline Park",
     "name": "Amped Trampoline Park",
-    "location": "Fort Canning",
-    "price": "16"
+    "location": "Fort Canning, Singapore",
+    "price": "16",
+    "code": "702"
+  },
+  {
+    "uuid": "0a2f940a-979a-11ea-bb37-0242ac130002",
+    "type": "Trampoline Park",
+    "name": "Rebound Trampoline Park",
+    "location": "Johor, Malaysia",
+    "price": "12",
+    "code": "458"
   },
   {
     "uuid": "298ed356-967d-11ea-bb37-0242ac130002",
     "type": "Picnic",
     "name": "Marina Barrage",
-    "location": "Marina Bay Sands",
-    "price": "0"
+    "location": "Marina Bay Sands, Singapore",
+    "price": "0",
+    "code": "702"
   },
   {
     "uuid": "2ce94036-967d-11ea-bb37-0242ac130002",
     "type": "Picnic",
     "name": "Fort Canning Park",
-    "location": "Fort Canning",
-    "price": "0"
+    "location": "Fort Canning, Singapore",
+    "price": "0",
+    "code": "702"
   },
   {
     "uuid": "2fd2349c-967d-11ea-bb37-0242ac130002",
     "type": "Picnic",
     "name": "Botanic Gardens",
-    "location": "Botanic Gardens",
-    "price": "0"
+    "location": "Botanic Gardens, Singapore",
+    "price": "0",
+    "code": "702"
   },
   {
     "uuid": "331a8550-967d-11ea-bb37-0242ac130002",
     "type": "Zoo",
     "name": "Jurong Bird Park",
-    "location": "Jurong Hill",
-    "price": "20"
+    "location": "Jurong Hill, Singapore",
+    "price": "20",
+    "code": "702"
   },
   {
     "uuid": "369dce26-967d-11ea-bb37-0242ac130002",
     "type": "Zoo",
     "name": "Singapore Zoo",
-    "location": "80 Mandai Lake Road",
-    "price": "37"
-  },
-  {
-    "uuid": "ae969abe-967a-11ea-bb37-0242ac130002",
-    "type": "Club",
-    "name": "Zouk",
-    "location": "Clarke Quay",
-    "price": "45"
+    "location": "80 Mandai Lake Road, Singapore",
+    "price": "37",
+    "code": "702"
   }
 ]

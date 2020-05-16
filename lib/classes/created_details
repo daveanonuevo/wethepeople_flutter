@@ -1,0 +1,76 @@
+class createdDetails {
+  Activity activity;
+  String location;
+  Activity food;
+  Transportation transportation;
+
+  createdDetails(
+      {this.activity, this.location, this.food, this.transportation});
+
+  createdDetails.fromJson(Map<String, dynamic> json) {
+    activity = json['activity'] != null
+        ? new Activity.fromJson(json['activity'])
+        : null;
+    location = json['location'];
+    food = json['food'] != null ? new Activity.fromJson(json['food']) : null;
+    transportation = json['transportation'] != null
+        ? new Transportation.fromJson(json['transportation'])
+        : null;
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    if (this.activity != null) {
+      data['activity'] = this.activity.toJson();
+    }
+    data['location'] = this.location;
+    if (this.food != null) {
+      data['food'] = this.food.toJson();
+    }
+    if (this.transportation != null) {
+      data['transportation'] = this.transportation.toJson();
+    }
+    return data;
+  }
+}
+
+class Activity {
+  String name;
+  int cost;
+
+  Activity({this.name, this.cost});
+
+  Activity.fromJson(Map<String, dynamic> json) {
+    name = json['name'];
+    cost = json['cost'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['name'] = this.name;
+    data['cost'] = this.cost;
+    return data;
+  }
+}
+
+class Transportation {
+  String type;
+  String time;
+  int cost;
+
+  Transportation({this.type, this.time, this.cost});
+
+  Transportation.fromJson(Map<String, dynamic> json) {
+    type = json['type'];
+    time = json['time'];
+    cost = json['cost'];
+  }
+
+  Map<String, dynamic> toJson() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['type'] = this.type;
+    data['time'] = this.time;
+    data['cost'] = this.cost;
+    return data;
+  }
+}

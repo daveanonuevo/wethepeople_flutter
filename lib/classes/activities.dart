@@ -4,8 +4,10 @@ class Activities {
   String name;
   String location;
   String price;
+  String code;
 
-  Activities({this.uuid, this.type, this.name, this.location, this.price});
+  Activities(
+      {this.uuid, this.type, this.name, this.location, this.price, this.code});
 
   Activities.fromJson(Map<String, dynamic> json) {
     uuid = json['uuid'];
@@ -13,6 +15,7 @@ class Activities {
     name = json['name'];
     location = json['location'];
     price = json['price'];
+    code = json['code'];
   }
 
   Map<String, dynamic> toJson() {
@@ -22,6 +25,7 @@ class Activities {
     data['name'] = this.name;
     data['location'] = this.location;
     data['price'] = this.price;
+    data['code'] = this.code;
     return data;
   }
 }

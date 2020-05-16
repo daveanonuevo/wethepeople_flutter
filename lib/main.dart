@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:wethepeople_flutter/providers/events.dart';
 import 'package:wethepeople_flutter/providers/user.dart';
+import 'providers/visaAPI.dart';
 import 'ui/fakerazer.dart';
 
 void main() {
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (context) => User()),
         ChangeNotifierProvider(create: (context) => Events()),
+        ChangeNotifierProvider(create: (context) => VisaAPI()),
       ],
       child: MaterialApp(
         title: 'Flutter Demo',
@@ -50,7 +52,6 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final username = Provider.of<User>(context);
-    final event = Provider.of<Events>(context);
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
