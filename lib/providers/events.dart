@@ -43,7 +43,7 @@ class Events with ChangeNotifier {
   double finalActivityAmount=0;
   double conversionRate = 0;
 
-  double eachInMYR;
+  double eachInMYR=0;
 
   void sendRequestMYR(amountinMYR) async {
     print(amountinMYR);

@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wethepeople_flutter/classes/VisaResponse.dart';
 import 'package:wethepeople_flutter/providers/events.dart';
+import 'package:wethepeople_flutter/providers/user.dart';
 import 'package:wethepeople_flutter/ui/main_events_page.dart';
 
 class CoPaymentOverview extends StatelessWidget {
@@ -13,8 +14,8 @@ class CoPaymentOverview extends StatelessWidget {
   List<TextEditingController> numbers;
   List<String> mapCurrency = List<String>();
 
-  double totalEachInSgd;
-  double eachInMYR;
+  double totalEachInSgd = 0;
+  double eachInMYR = 0 ;
 
   CoPaymentOverview(
       {Key key, @required this.currencies, @required this.numbers})
@@ -23,6 +24,7 @@ class CoPaymentOverview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final event = Provider.of<Events>(context);
+    final user = Provider.of<User>(context);
 
     totalEachInSgd = (event.total) / (numbers.length + 1);
 
@@ -76,6 +78,7 @@ class CoPaymentOverview extends StatelessWidget {
                       child: Text("CONFIRM",
                           style: TextStyle(fontSize: 18, color: Colors.white)),
                       onPressed: () {
+                        user.minusBalance(totalEachInSgd);
                         Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => MainEventsPage()),

@@ -27,7 +27,7 @@ class MainEventsPage extends StatelessWidget {
       appBar: new AppBar(title: Text("RazerOuts")),
       body: Column(children: <Widget>[
         Padding(padding: EdgeInsets.only(bottom: 50)),
-        Text("BALANCE: ${user.getBalance()}",
+        Text("BALANCE: ${user.balance}",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 34,

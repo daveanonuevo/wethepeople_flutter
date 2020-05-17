@@ -14,9 +14,9 @@ class User with ChangeNotifier{
     return this.username;
   }
 
-  double setBalance(){
-
-    return this.balance;
+  void minusBalance(amount){
+    balance = balance - amount;
+    notifyListeners();
   }
 
   double getBalance() {
